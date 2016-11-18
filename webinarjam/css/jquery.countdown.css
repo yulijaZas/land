@@ -1,0 +1,103 @@
+.countdownHolder{
+	width: 450px;
+margin: 3% auto;
+font-family: "Roboto";
+text-align: center;
+letter-spacing: -3px;
+}
+
+.position{
+	display: inline-block;
+	height: 1.6em;
+	overflow: hidden;
+	position: relative;
+	width: 0.8em;
+}
+/**/
+.digit{
+	vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    font-weight: 300;
+    text-shadow: 1px 1px 1px #666;
+    margin-top: 9px;
+}
+
+
+
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+
+.countDays{ position: static;
+height: 115px;
+padding-top: 38px;
+background-image: url('../img/ic-countdown-red.png');
+background-position: 50% 50%;
+background-size: 96px;
+background-repeat: no-repeat;
+color: white;
+font-size: 52px;
+font-weight: 700;
+text-align: center;
+margin-right: 5%;
+ }
+
+
+.countHours{position: static;
+height: 115px;
+padding-top: 38px;
+background-image: url('../img/ic-countdown-blue.png');
+background-position: 50% 50%;
+background-size: 96px;
+background-repeat: no-repeat;
+color: white;
+font-size: 52px;
+font-weight: 700;
+text-align: center;
+margin-right: 5%;
+ }
+
+.countMinutes{position: static;
+height: 115px;
+padding-top: 38px;
+background-image: url('../img/ic-countdown-green.png');
+background-position: 50% 50%;
+background-size: 96px;
+background-repeat: no-repeat;
+color: white;
+font-size: 52px;
+font-weight: 700;
+text-align: center;
+margin-right: 5%;
+ }
+
+.countSeconds{position: static;
+height: 115px;
+padding-top: 38px;
+background-image: url('../img/ic-countdown-yellow.png');
+background-position: 50% 50%;
+background-size: 96px;
+background-repeat: no-repeat;
+color: white;
+font-size: 52px;
+font-weight: 700;
+text-align: center;
+margin-right: 5%;
+ }
+
+
+.countDiv{
+	display:inline-block;
+	width:16px;
+	height:1.6em;
+	position:relative;
+}
+
+.countDiv{
+	display: none;
+}
+
+/*-------------------------------------*/
+

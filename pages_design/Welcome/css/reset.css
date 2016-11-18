@@ -1,0 +1,664 @@
+/* font-family: "ArialNarrowRegular"; */
+@font-face {
+    font-family: "ArialNarrowRegular";
+    src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot");
+    src: url("../fonts/ArialNarrowRegular/ArialNarrowRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowRegular/ArialNarrowRegular.woff") format("woff"),
+    url("../fonts/ArialNarrowRegular/ArialNarrowRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialNarrowBold"; */
+@font-face {
+    font-family: "ArialNarrowBold";
+    src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot");
+    src: url("../fonts/ArialNarrowBold/ArialNarrowBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowBold/ArialNarrowBold.woff") format("woff"),
+    url("../fonts/ArialNarrowBold/ArialNarrowBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialNarrowItalic"; */
+@font-face {
+    font-family: "ArialNarrowItalic";
+    src: url("../fonts/ArialNarrowItalic/ArialNarrowItalic.eot");
+    src: url("../fonts/ArialNarrowItalic/ArialNarrowItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowItalic/ArialNarrowItalic.woff") format("woff"),
+    url("../fonts/ArialNarrowItalic/ArialNarrowItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "ArialNarrowBoldItalic"; */
+@font-face {
+    font-family: "ArialNarrowBoldItalic";
+    src: url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.eot");
+    src: url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.woff") format("woff"),
+    url("../fonts/ArialNarrowBoldItalic/ArialNarrowBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* font-family: "MyriadProRegular"; */
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBold"; */
+@font-face {
+    font-family: "MyriadProBold";
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot");
+    src: url("../fonts/MyriadProBold/MyriadProBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBold/MyriadProBold.woff") format("woff"),
+    url("../fonts/MyriadProBold/MyriadProBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProItalic"; */
+@font-face {
+    font-family: "MyriadProItalic";
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot");
+    src: url("../fonts/MyriadProItalic/MyriadProItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.woff") format("woff"),
+    url("../fonts/MyriadProItalic/MyriadProItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBold"; */
+@font-face {
+    font-family: "MyriadProSemiBold";
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot");
+    src: url("../fonts/MyriadProSemiBold/MyriadProSemiBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.woff") format("woff"),
+    url("../fonts/MyriadProSemiBold/MyriadProSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProBoldItalic"; */
+@font-face {
+    font-family: "MyriadProBoldItalic";
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot");
+    src: url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProBoldItalic/MyriadProBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "MyriadProSemiBoldItalic"; */
+@font-face {
+    font-family: "MyriadProSemiBoldItalic";
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot");
+    src: url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.woff") format("woff"),
+    url("../fonts/MyriadProSemiBoldItalic/MyriadProSemiBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+
+
+body{
+    font-family: 'ArialNarrowRegular';
+    margin-right: 4%;
+    margin-left: 4%;
+    min-width: 640px;
+}
+
+.row{
+    margin: 0;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+#header{
+    background-color: #000;
+    width: 100%;
+    max-width: 1241.1px;
+     margin-right: auto;
+    margin-left: auto;
+}
+
+#header .head{
+    text-align: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#header .head-logo{
+    text-align: right;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+
+#header .head-logo img{
+    width: 49px;
+    height: auto;
+    margin-left: 2%;
+}
+
+#header .logo:hover { 
+    border-radius: 500px;
+    filter: alpha(Opacity=70);
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 1050px){
+#header .head img{
+    width: 400px;    
+}
+}
+
+@media screen and (max-width: 980px){
+#header .head img{
+    width: 390px;    
+}
+}
+
+@media screen and (max-width: 940px){
+#header .head img{
+    width: 370px;    
+}
+}
+
+@media screen and (max-width: 870px){
+#header .head img{
+    width: 350px;    
+}
+}
+
+@media screen and (max-width: 800px){
+#header .head img{
+    width: 300px;    
+}
+}
+
+@media screen and (max-width: 1050px){
+#header .head-logo img{
+    width: 40px;
+    height: auto;
+    margin-left: 2%;
+}
+}
+
+@media screen and (max-width: 980px){
+#header .head-logo img{
+    width: 39px;
+    height: auto;
+    margin-left: 2%;
+}
+}
+
+@media screen and (max-width: 940px){
+#header .head-logo img{
+    width: 37px;
+    height: auto;
+    margin-left: 2%;
+}
+}
+
+@media screen and (max-width: 870px){
+#header .head-logo img{
+    width: 35px;
+    height: auto;
+    margin-left: 2%;
+}
+}
+
+@media screen and (max-width: 800px){
+#header .head-logo img{
+    width: 32px;
+    height: auto;
+    margin-left: 2%;
+}
+}
+/*------------------------------------*/
+
+#banner{
+    background: url(../img/banner.png) no-repeat center top;
+    text-align: justify;
+    width: 100%;
+    max-width: 1241.1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner .col-lg-7{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    width: 50.9%;
+}
+
+#banner .text-1{
+    font-size: 1235%;
+    color: #e0e0e1;
+    line-height: 120px;
+}
+
+#banner .text-2{
+    font-size: 609%;
+    color: #e0e0e1;
+    line-height: 150px;
+}
+
+#banner .text-3{
+    font-size: 400%;
+    color: #e0e0e1;
+    line-height: 50px;
+    padding-bottom: 10%;
+}
+
+.bttn{
+    margin: 0 auto;
+    padding: 1% 15%;
+    width: 80%;
+    font-size: 300%;
+    background-color: transparent;
+    border: 5px solid #e21417;
+    color: #e21417;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+}
+
+.bttn:hover{
+    border: 5px solid #c81215;
+    color: #c81215;
+}
+
+@media screen and (min-width: 2600px){
+#banner .text-2{
+    font-size: 600%;
+}
+}
+
+@media screen and (min-width: 3300px){
+#banner .text-2{
+    font-size: 595%;
+}
+}
+
+@media screen and (max-width: 1300px){
+#banner .text-2{
+    font-size: 559%;
+}
+}
+
+@media screen and (max-width: 1300px){
+#banner .text-1{
+    font-size: 1140%;
+}
+}
+
+@media screen and (max-width: 1200px){
+#banner .text-1{
+    font-size: 1027%;
+}
+}
+
+@media screen and (max-width: 1200px){
+#banner .text-2{
+    font-size: 503%;
+}
+}
+
+@media screen and (max-width: 1200px){
+.bttn{
+    font-size: 250%;
+}
+}
+
+@media screen and (max-width: 1050px){
+#banner .text-1{
+    font-size: 867%;
+    line-height: 90px;
+}
+}
+
+@media screen and (max-width: 1050px){
+#banner .text-2{
+    font-size: 424%;
+}
+}
+
+@media screen and (max-width: 1050px){
+#banner .text-3{
+    font-size: 308%;
+}
+}
+
+@media screen and (max-width: 1050px){
+#banner .col-lg-7{
+    width: 46.9%;
+}
+}
+
+@media screen and (max-width: 980px){
+.bttn{
+    font-size: 200%;
+}
+}
+
+@media screen and (max-width: 980px){
+#banner .text-1{
+    font-size: 800%;
+}
+}
+
+@media screen and (max-width: 980px){
+#banner .text-2{
+    font-size: 390%;
+}
+}
+
+@media screen and (max-width: 940px){
+#banner .text-1{
+    font-size: 740%;
+}
+}
+
+@media screen and (max-width: 940px){
+#banner .text-2{
+    font-size: 360%;
+    line-height: 100px;
+}
+}
+
+@media screen and (max-width: 940px){
+#banner .text-3{
+    font-size: 228%;
+    line-height: 30px;
+}
+}
+
+@media screen and (max-width: 870px){
+#banner .text-1{
+    font-size: 699%;
+}
+}
+
+@media screen and (max-width: 870px){
+#banner .text-2{
+    font-size: 341%;
+}
+}
+
+@media screen and (max-width: 800px){
+#banner .text-1{
+    font-size: 599%;
+}
+}
+
+@media screen and (max-width: 800px){
+#banner .text-2{
+    font-size: 292%;
+}
+}
+
+@media screen and (max-width: 800px){
+.bttn{
+    font-size: 170%;
+    border: 3px solid #e21417;
+}
+}
+
+@media screen and (max-width: 800px){
+.bttn:hover{
+    border: 3px solid #c81215;
+}
+}
+
+@media screen and (max-width: 730px){
+#banner .text-1{
+    font-size: 579%;
+}
+}
+
+@media screen and (max-width: 730px){
+#banner .text-2{
+    font-size: 283%;
+}
+}
+
+@media screen and (max-width: 690px){
+#banner .text-1{
+    font-size: 539%;
+}
+}
+
+@media screen and (max-width: 690px){
+#banner .text-2{
+    font-size: 266%;
+}
+}
+
+@media screen and (max-width: 690px){
+#banner .text-3{
+    font-size: 190%;
+}
+}
+
+@media screen and (max-width: 690px){
+.bttn{
+    font-size: 150%;
+}
+}
+
+@media screen and (max-width: 665px){
+#banner .text-1{
+    font-size: 530%;
+}
+}
+
+@media screen and (max-width: 665px){
+#banner .text-2{
+    font-size: 257%;
+}
+}
+
+/*--------------------------------------------------*/
+
+#wrapper{
+    font-family: 'MyriadProSemiBold';
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1241.1px;
+    text-align: center;
+}
+
+#wrapper .bttn_2 {
+    margin: 2% auto;
+    cursor: pointer;
+    background: none repeat scroll 0 0 #A70404;
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    height: 65px;
+    width: 39%;
+    text-decoration: none;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #dc4042 #000 #830100;
+    border-radius: 3px;
+    background: linear-gradient(#e21417, #b80504) #b80504;
+    transition: 0.2s;
+    text-align: center;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+#wrapper .battn{
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+#wrapper .bttn_2:hover { 
+    border-color: #c81215 #000 #9e0302;
+    background: linear-gradient(#c81215, #9e0302) #9e0302; 
+    box-shadow: none;
+}
+#wrapper .bttn_2:active {
+    border-color: #c81215 #000 #9e0302;
+    background: linear-gradient(#c81215, #9e0302) #9e0302; 
+    box-shadow: none;
+}
+
+#wrapper .text-4{
+    font-size: 70px;
+    margin-top: 5%;
+    font-family: 'MyriadProBold';
+}
+
+#wrapper .text-5{
+    font-size: 40px;
+    color: #555555;
+}
+
+#wrapper .logo{
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#wrapper .logo img{
+    width: 140px;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+#wrapper .text-6{
+    font-family: 'MyriadProRegular';
+    font-size: 40px;
+    color: #555555;
+}
+
+#wrapper .link{
+    padding-bottom: 3%;
+}
+
+#wrapper .text-7{
+    font-family: 'MyriadProSemiBold';
+    font-size: 30px;
+    color: #303f88;
+    text-decoration: underline;
+}
+
+#wrapper .text-7:hover{
+    color: #5965a0;
+}
+
+#wrapper .line img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+#wrapper .col-lg-1{
+    width: 1%;
+    padding: 0;
+}
+
+#wrapper .col-lg-10{
+    width: 98%;
+}
+
+#wrapper .line-2 img{
+    width: 100%;
+    height: auto;
+    padding-top: 150px;
+}
+
+#wrapper .hed{
+    padding: 0;
+}
+
+@media screen and (max-width: 1260px){
+#wrapper .bttn_2{
+    font-size: 35px;
+}
+}
+
+@media screen and (max-width: 1200px){
+#wrapper .bttn_2{
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 1050px){
+#wrapper .text-5{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 1050px){
+#wrapper .text-6{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 1050px){
+#wrapper .text-7{
+    font-size: 20px;
+}
+}
+/*---------------------------*/
+
+#footer{
+    background-color: #000;
+    width: 100%;
+    max-width: 1241.1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer .row{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#footer .logo img{
+    margin: 5% auto;
+    width: 100%;
+}
+
+#footer .text-8{
+    font-size: 30px;
+    font-family: 'MyriadProRegular';
+    text-align: justify;
+    padding-top: 2%;
+}
+
+#footer .text-9{
+    font-size: 30px;
+    font-family: 'MyriadProRegular';
+    text-align: center;
+    color: #fff;
+}
+
+#footer .click{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+@media screen and (max-width: 1050px){
+#footer .text-8{
+    font-size: 20px;
+}
+}
+
+@media screen and (max-width: 1050px){
+#footer .text-9{
+    font-size: 20px;
+}
+}
+
+/*-------------------------------------------*/
+

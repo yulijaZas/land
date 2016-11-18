@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8" />
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>	
+
+  	<title>Lottmarket</title>  	
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+  	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  </head>
+
+  <body>
+
+
+
+
+    <style type="text/css">
+   /* font-family: "ArialNarrowRegular"; */
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 4%;
+    margin-left: 4%;
+    min-width: 640px;
+}
+
+.row{
+    margin: 0;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+#header{
+    background-color: #000;
+    width: 100%;
+    max-width: 1241.1px;
+     margin-right: auto;
+    margin-left: auto;
+}
+
+#header .head{
+    text-align: left;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#header .head-logo{
+    text-align: right;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 3%;
+}
+
+#header .head-logo img{
+    width: 49px;
+    height: auto;
+    margin-left: 2%;
+}
+
+#header .logo:hover { 
+    border-radius: 500px;
+    filter: alpha(Opacity=70);
+    opacity: 0.7;
+}
+
+/*------------------------------------*/
+
+#banner{
+    background: url(img/banner.png) no-repeat center top;
+    text-align: justify;
+    width: 100%;
+    max-width: 1241.1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner .col-lg-7{
+    margin-top: 2%;
+    margin-bottom: 4%;
+    width: 50.9%;
+}
+
+#banner .text-1 {
+    font-size: 1067%;
+    color: #e0e0e1;
+    line-height: 130px;
+    margin-left: -4px;
+    text-transform: uppercase;
+    margin-top: 10%;
+}
+
+#banner .text-2 {
+    font-size: 749%;
+    color: #e0e0e1;
+    line-height: 110px;
+}
+
+#banner .text-3 {
+    font-size: 915%;
+    color: #e0e0e1;
+    line-height: 110px;
+    padding-bottom: 10%;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: -4px;
+}
+
+.bttn{
+    margin: 0 auto;
+    padding: 1% 15%;
+    width: 100%;
+    font-size: 300%;
+    background-color: transparent;
+    border: 5px solid #f8150c;
+    color: #f8150c;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+}
+
+.bttn_3 {
+    margin: 5% auto;
+    padding: 1% 5%;
+    width: 70%;
+    font-size: 300%;
+    background-color: transparent;
+    border: 5px solid #f8150c;
+    color: #f8150c;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+}
+
+.bttn:hover{
+    border: 5px solid #5965a0;
+    color: #5965a0;
+}
+
+.bttn_3:hover{
+    border: 5px solid #5965a0;
+    color: #5965a0;
+}
+
+
+/*--------------------------------------------------*/
+
+#banner-2{
+    background: url(img/banner-2.png) no-repeat center top;
+    text-align: justify;
+    width: 100%;
+    max-width: 1241.1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#banner-2 .text-10{
+  font-size: 450%;
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 1%;
+  background: -moz-linear-gradient(left, #ffffff 0%, #c42629 24%, #ffffff 48%, #c42629 73%, #ffffff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #ffffff 0%,#c42629 24%,#ffffff 48%,#c42629 73%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #ffffff 0%,#c42629 24%,#ffffff 48%,#c42629 73%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  -webkit-background-clip: text;
+  color: transparent;
+  padding-top: 4%;
+}
+
+#banner-2 .text-11{
+  font-size: 400%;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.2;
+  text-align: left;
+  padding-left: 1%;
+  padding-bottom: 4%;
+}
+/*--------------------------------------------------*/
+
+#wrapper{
+    font-family: 'Roboto', sans-serif;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1241.1px;
+    text-align: center;
+}
+
+#wrapper .bttn_2 {
+    margin: 2% auto;
+    cursor: pointer;
+    background: none repeat scroll 0 0 #A70404;
+    cursor: pointer;
+    display: block;
+    color: #fff;
+    height: 65px;
+    width: 39%;
+    text-decoration: none;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #dc4042 #000 #830100;
+    border-radius: 3px;
+    background: linear-gradient(#e21417, #b80504) #b80504;
+    transition: 0.2s;
+    text-align: center;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrapper .battn{
+   text-align: center;
+   margin-bottom: 5%;
+}
+
+#wrapper .bttn_2:hover { 
+    border-color: #c81215 #000 #9e0302;
+    background: linear-gradient(#c81215, #9e0302) #9e0302; 
+    box-shadow: none;
+}
+#wrapper .bttn_2:active {
+    border-color: #c81215 #000 #9e0302;
+    background: linear-gradient(#c81215, #9e0302) #9e0302; 
+    box-shadow: none;
+}
+
+#wrapper .text-4 {
+    font-size: 250%;
+    margin-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    font-weight: 600;
+    text-align: left;
+}
+
+#wrapper .text-5 {
+    font-size: 200%;
+    color: #555555;
+    text-align: left;
+}
+
+#wrapper .bann{
+  margin-top: 3%;
+  margin-bottom: 3%;
+  text-align: left;
+}
+
+#wrapper .logo {
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+
+#wrapper .logo img{
+    width: 140px;
+    height: auto;
+    margin-bottom: 2%;
+}
+
+#wrapper .text-6{
+    font-size: 200%;
+    color: #555555;
+    text-align: left; 
+    margin-top: 7%;
+}
+
+
+#wrapper .link{
+    padding-bottom: 3%;
+}
+
+#wrapper .text-7{
+    font-size: 250%;
+    color: #555555;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+#wrapper .line img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+    margin-top: 10%;
+}
+
+#wrapper .col-lg-1{
+    width: 1%;
+    padding: 0;
+}
+
+#wrapper .col-lg-10{
+    width: 98%;
+}
+
+#wrapper .line-2 img{
+    width: 100%;
+    height: auto;
+    padding-top: 400px;
+}
+
+#wrapper .hed{
+    padding: 0;
+}
+
+#wrapper img{
+  text-align: left;
+}
+
+#wrapper .text-12 {
+    font-size: 300%;
+    color: #000;
+    margin-top: 5%;
+    text-align: justify;
+}
+
+#wrapper .text-13 {
+    font-size: 300%;
+    color: #000;
+    margin-top: 5%;
+    text-align: center;
+    font-weight: 600;
+}
+
+#wrapper .text-14 {
+    font-size: 200%;
+    color: #000;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 5%;
+    }
+
+/*---------------------------*/
+
+#footer{
+    background-color: #000;
+    width: 100%;
+    max-width: 1241.1px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#footer .row{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+#footer .logo img{
+    margin: 5% auto;
+    width: 100%;
+}
+
+#footer .text-8{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    padding-top: 2%;
+}
+
+#footer .text-9{
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+
+#footer .click{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 35px;
+}
+
+
+
+/*-------------------------------------------*/
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block;
+}
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+img {
+  border: 0;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+figure {
+  margin: 1em 40px;
+}
+hr {
+  height: 0;
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+pre {
+  overflow: auto;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+button {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+body {
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+a {
+  color: #337ab7;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  color: #23527c;
+  text-decoration: underline;
+}
+a:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12 {
+  float: left;
+}
+.col-xs-12 {
+  width: 100%;
+}
+.col-xs-11 {
+  width: 91.66666667%;
+}
+.col-xs-10 {
+  width: 83.33333333%;
+}
+.col-xs-9 {
+  width: 75%;
+}
+.col-xs-8 {
+  width: 66.66666667%;
+}
+.col-xs-7 {
+  width: 58.33333333%;
+}
+.col-xs-6 {
+  width: 50%;
+}
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.col-xs-4 {
+  width: 33.33333333%;
+}
+.col-xs-3 {
+  width: 25%;
+}
+.col-xs-2 {
+  width: 16.66666667%;
+}
+.col-xs-1 {
+  width: 8.33333333%;
+}
+
+
+
+.clearfix:before,
+.clearfix:after,
+.dl-horizontal dd:before,
+.dl-horizontal dd:after,
+.container:before,
+.container:after,
+.container-fluid:before,
+.container-fluid:after,
+.row:before,
+.row:after,
+.form-horizontal .form-group:before,
+.form-horizontal .form-group:after,
+.btn-toolbar:before,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:before,
+.btn-group-vertical > .btn-group:after,
+.nav:before,
+.nav:after,
+.navbar:before,
+.navbar:after,
+.navbar-header:before,
+.navbar-header:after,
+.navbar-collapse:before,
+.navbar-collapse:after,
+.pager:before,
+.pager:after,
+.panel-body:before,
+.panel-body:after,
+.modal-footer:before,
+.modal-footer:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after,
+.dl-horizontal dd:after,
+.container:after,
+.container-fluid:after,
+.row:after,
+.form-horizontal .form-group:after,
+.btn-toolbar:after,
+.btn-group-vertical > .btn-group:after,
+.nav:after,
+.navbar:after,
+.navbar-header:after,
+.navbar-collapse:after,
+.pager:after,
+.panel-body:after,
+.modal-footer:after {
+  clear: both;
+}
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+  </style>
+
+    <div id="header">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 head">
+          <img src="img/header-lott.jpg">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 head-logo">
+          <a href="#" class="logo"><img src="img/logo-1.png"></a>
+          <a href="#" class="logo"><img src="img/logo-2.png"></a>
+          <a href="#" class="logo"><img src="img/logo-3.png"></a>
+        </div>
+      </div>
+    </div>
+
+    <div id="banner">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="text-1">
+            Anyone
+          </div>
+          <div class="text-2">
+            can become
+          </div>
+          <div class="text-3">
+            successful
+          </div>
+          <button class="bttn" onclick="">deposit funds</button>
+        </div>
+      </div>      
+    </div>
+
+      <div id="wrapper">
+        <div class="row hed">
+          
+         
+            <div class="row bann">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                 <img src="img/logo-5.png">          
+              </div> 
+              <div class="col-md-10 col-sm-10 col-xs-10">
+                <div class="text-4">Is Your Account Empty?</div>
+                <div class="text-5">Make a deposit right now or contact our customer support team.</div>   
+              </div>       
+            </div>
+
+            <div class="row bann">
+              <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                <div class="text-6">We accept:</div>                        
+              </div> 
+              <div class="col-md-10 col-sm-10 col-xs-10">
+                <img src="img/logo-4.png"> 
+              </div>       
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div id="banner-2">
+        <div class="row">
+          <div class="col-lg-7">
+            <div class="text-10"><span></span>The Castomer Support Team</div>
+            <div class="text-11">
+              First Class Assistance
+            </div>
+          </div>
+        </div>      
+      </div>
+
+      <div id="wrapper">
+        <div class="row hed">  
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 line-2"><img src="img/line-left.png"></div> 
+
+          <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">
+           <div class="row">
+            <div class="col-lg-12">
+              <div class="text-7">Dear Закатина Алина,<BR><BR> Your time is valuable, which is why we are ready to answer your questions promptly. Our specialists can consult with you on any issue you may have, such as how to deposit or withdraw funds, learning the basics of trading and investing, setting up your trading platform or any other topic relating to your business with Alpari.
+              </div>
+            </div>   
+
+            <div class="col-lg-12">
+              <div class="text-12">Our Support is Your Advantage:</div>
+            </div>     
+
+             <div class="col-lg-12">
+              <div class="text-7">
+                <ul>
+                 <li>24 hour service.</li>
+                 <li>Contact us the way you want: by phone, Live Chat, email or Skype.</li>
+                 <li>Highly qualified specialists.</li>
+                 <li>Friendly and attentive attitude.</li>
+                </ul>
+              </div>
+            </div> 
+
+            <div class="col-lg-12">
+              <div class="text-7">As soon as your funds reach your account, you can start rading and investing on the international financial markets.</div>
+              </div> 
+
+            <div class="col-lg-12">
+              <div class="text-7">If you have any questions or wish for additional information, please feel free to call our customer service team on +7 (495) 710-76-76, from Monday to Friday, 07:00 to 18:00 EET.</div>
+            </div>           
+            
+            <div class="col-lg-12">
+              <div class="text-13">Don’t lose your chance on the financial markets…</div>
+            </div> 
+
+            <div class="col-lg-12">
+              <div class="text-14">Fund your account to get trading and investing right now.</div>
+            </div> 
+
+            <div class="row">
+              <div class="col-lg-12">
+                  <button class="bttn_3" onclick="">deposit funds</button>
+              </div>        
+            </div>
+
+            <div class="col-lg-12">
+              <div class="text-7">Thank you for choosing Lottmarket.<br><br>Best Regards,<br>Lottmarket</div>
+            </div> 
+
+              <div class="row">
+                <div class="col-lg-12 line"><img src="img/line-1.png"></div>        
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 line-2"><img src="img/line-right.png"></div>
+        </div>
+      </div>
+
+    <div id="footer">
+      <div class="row logo">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 head">
+          <img src="img/logo-8.png">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  head">
+          <img src="img/logo-7.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12 text-8">Risk disclosure: Binary options trading involves significant risk. We strongly advise that you read our Terms & Conditions Although the risk when trading binary options is fixed for each individual trade, the trades are live and it is possible to lose an initial investment, particularly if a trader chooses to place his entire investment to a single live trade. It is highly recommended that traders choose a proper money management strategy .which limits the total consecutive trades or total outstanding investment.</div>
+      </div>
+      <div class="row ">
+        <div class="col-lg-12 text-8 click">Click <a href="" class="text-9">here</a> to Unsubscribe</div>
+      </div>
+
+    </div>
+
+   
+         
+
+
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
+
+
